@@ -76,4 +76,4 @@ Per qualsiasi domanda o ulteriore informazione sui miei progetti, non esitate a 
 
 * **LinkedIn:** [linkedin.com/in/ludoaric](https://www.linkedin.com/in/ludoaric)
 * **Email:** [ludovico.arico@gmail.com](mailto:ludovico.arico@gmail.com)
-* **GitHub Profile:** [github.com/ludoaric](https://github.com/ludoaric) (Aggiungi il tuo username GitHub corretto se diverso)
+* **GitHub Profile:** [github.com/ludoaric](https://github.com/ludoaric) 
