@@ -1,6 +1,6 @@
 # Aerospace Engineering Projects Portfolio
 
-Welcome to my portfolio of academic projects and elaborated works, developed during my Master's Degree in Aerospace Engineering at the University of Campania "Luigi Vanvitelli." This repository showcases my technical and analytical skills in various key areas of aerospace engineering, with a particular focus on flight dynamics, control systems, astrodynamics, and numerical analysis.
+Welcome to my portfolio of academic projects and elaborated works, developed during my Master's Degree in Aerospace Engineering at the University of Campania "Luigi Vanvitelli." This repository showcases my technical and analytical skills in various key areas of aerospace engineering, with a particular focus on flight dynamics, control systems, astrodynamics, numerical analysis, and structural design.
 
 ---
 
@@ -9,9 +9,12 @@ Welcome to my portfolio of academic projects and elaborated works, developed dur
 * **Advanced Control Systems:** Design, tuning, and validation of controllers (PID, LQR, LQI, MPC), attitude estimation and navigation (Linear Kalman Filters), stability, and robustness analysis.
 * **Flight Dynamics & Aerodynamics:** Analysis of longitudinal and lateral-directional dynamic stability, modeling of characteristic modes (Phugoid, Short Period, Roll, Spiral, Dutch Roll), Mach critical analysis, preliminary aircraft design, airfoil and finite wing studies, stall phenomena, and corrective solutions (twist, taper ratio).
 * **Astrodynamics & Space Systems:** Satellite mission analysis (e.g., Sun-Synchronous orbits, orbital propagation with J2 effects), Ground Track evaluation, and analysis of SAR radar modules (Swath, Doppler effect, integration time).
-* **Atmospheric Re-entry & Hypersonic Aerothermodynamics:** Analysis of re-entry corridors and trajectories (ballistic and lifting), evaluation of thermal and structural loads, application of Newtonian theory, and CFD simulations (Ansys Fluent, ICEM CFD).
+* **Atmospheric Re-entry & Hypersonic Aerothermodynamics:** Analysis of re-entry corridors and trajectories (balistico and lifting), evaluation of thermal and structural loads, application of Newtonian theory, and CFD simulations (Ansys Fluent, ICEM CFD).
+* **Structural Analysis (FEM):** Proficiency in Finite Element Method (FEM) using **Abaqus** for plane strain/stress, axisymmetric, linear buckling, and thermomechanical analyses of aeronautical components (fuselage sections, reinforced panels, wing sections).
+* **Structural Design & Verification:** Calculation of critical loads, shear flows, normal stresses, and verification of structural components (reinforced panels, wing boxes, force ordinates) under various loading conditions using concentrated element approaches.
+* **Numerical Methods:** Implementation of numerical integration techniques (Newton-Cotes, Gauss methods).
 * **Data Analysis & Statistics:** Descriptive statistics, independence testing, confidence intervals, and multiple regression for predictive modeling.
-* **Numerical Modeling & Simulation:** Extensive experience with **MATLAB/Simulink** (advanced), Ansys Fluent (intermediate, CFD), XFoil (intermediate), AVL (intermediate), Abaqus (basic, FEA).
+* **Numerical Modeling & Simulation:** Extensive experience with **MATLAB/Simulink** (advanced), Ansys Fluent (intermediate, CFD), xFoil (intermediate), AVL (intermediate), **Abaqus** (intermediate, FEA).
 * **Programming:** MATLAB (advanced), basic knowledge of Python and C++.
 
 ---
@@ -20,24 +23,42 @@ Welcome to my portfolio of academic projects and elaborated works, developed dur
 
 ### **Aerodynamics**
 
-This section includes detailed reports and analyses on the aerodynamic behavior of airfoils and complete aircraft, exploring both theoretical foundations and practical applications.
+This section includes elaborated works and in-depth analyses on the aerodynamic behavior of airfoils and complete aircraft, exploring both theoretical foundations and practical applications.
 
 * **[Hypersonic Aerodynamics (AEIP) Report](AERODINAMICA/elaborato%20AEIP.pdf)**
-    * **Content:** Feasibility analysis of a hypothetical space re-entry mission with the Orion capsule. Study of the **re-entry corridor** (thermal limits, dynamic pressure, and aerodynamic limits), and **re-entry trajectories** (ballistic and lifting) using isothermal and standard atmospheric models. Evaluation of thermal fluxes, accelerations, and flight times. Also includes a hypersonic aerodynamic analysis of the **Space Shuttle Orbiter**, comparing results obtained through **Newtonian Theory (Hyper software)** and **CFD simulations (Ansys Fluent, ICEM CFD)**.
+    * **Content:** Feasibility analysis of a hypothetical space re-entry mission with the Orion capsule. Study of the **re-entry corridor** (thermal limits, dynamic pressure, and aerodynamic limits), and **re-entry trajectories** (ballistic and lifting) with isothermal and standard atmospheric models. Evaluation of thermal fluxes, accelerations, and flight times. Includes an aerodynamic analysis of the **Space Shuttle Orbiter** in hypersonic conditions, comparing results obtained through **Newtonian Theory (Hyper software)** and **CFD simulations (Ansys Fluent, ICEM CFD)**.
     * **Skills:** Hypersonic aerodynamics, atmospheric re-entry, thermodynamics, CFD, numerical analysis, atmospheric modeling, MATLAB.
 
 * **[Aircraft Aerodynamics Report](AERODINAMICA/elaborato_arico_ludovico.pdf)**
-    * **Content:** Study of the aerodynamic polars of **NACA 2412 and NACA 632415 airfoils** using **xFoil**, analyzing the effects of Reynolds number, flap and slat deflection. Comparison of results with experimental data (Abbott's tables). Calculation of the **lower critical Mach number** for various airfoils. Application of **Prandtl's lifting line theory (AVL software)** for finite wing analysis (lift distribution, lift loading, induced angle of attack). Evaluation of the **stall path** and corrective solutions (twist, taper ratio). Includes an **Eulerian CFD analysis** of an N2A aircraft.
+    * **Content:** Study of the aerodynamic polars of **NACA 2412 and NACA 632415 airfoils** using **xFoil**, analyzing the effects of Reynolds number, flap and slat deflection. Comparison of results with experimental data (Abbott's tables). Calculation of the **lower critical Mach number** for various airfoils. Application of **Prandtl's lifting line theory (AVL software)** for finite wing analysis (lift distribution, lift loading, induced angle of attack). Evaluation of the **stall path** and corrective solutions (taper ratio, twist). Includes an **Eulerian CFD analysis** of an N2A aircraft.
     * **Skills:** Subsonic and transonic aerodynamics, stall, wing design, airfoil analysis, MATLAB, xFoil, AVL, Ansys Fluent (CFD), mesh generation (ICEM CFD).
+
+### **Aeronautical Structures**
+
+This section details projects on the structural analysis and design of aeronautical components, focusing on various load conditions and numerical simulation methods using FEM.
+
+* **[Aeronautical Structures Course, Module 1 Project](relazione_csaer_mod1_arico_241216_180635.pdf)**
+    * [cite_start]**Content:** Determination of the **critical load for a reinforced panel** with T-stiffeners, using a concentrated element approach[cite: 4835]. [cite_start]Analysis of **torsional and flexural-torsional loads** on a wing box, including shear flow distribution and warping phenomena[cite: 5001]. [cite_start]Verification of a wing box structure under bending moment and shear forces, calculating normal stresses in stringers and shear flows in webs[cite: 5161]. [cite_start]Structural analysis of an aircraft force ordinate under external loads, determining stress states and ensuring resistance limits are met[cite: 5591].
+    * **Skills:** Structural mechanics, buckling analysis, stress and strain analysis, shear flow, torsional analysis, concentrated element method.
+
+* **[Aeronautical Structures Course, Module 2 Project](relazione_csaer2_ARICO.pdf)**
+    * **Content:** Finite Element Analysis (FEA) using **Abaqus** for various structural problems:
+        * [cite_start]**Plane Strain Analysis:** Study of a fuselage section under internal pressure, comparing 2D (plane strain) and 3D models to validate efficiency[cite: 3965].
+        * [cite_start]**Plane Stress Analysis:** Structural analysis of a fork component, comparing 2D (plane stress) and 3D models[cite: 4070].
+        * [cite_start]**Axisymmetric Analysis:** Study of three axisymmetric structures under internal pressure, evaluating stress distribution[cite: 4367].
+        * [cite_start]**Linear Buckling Analysis:** Determination of critical buckling loads and modes for a stiffened panel with T-stringers[cite: 4481].
+        * [cite_start]**Thermomechanical Analysis:** Study of a half-wing section (Inconel material) subjected to thermal loads, evaluating displacements, Von Mises stresses, and temperature distribution over time[cite: 4615].
+    * [cite_start]**Numerical Integration:** Comparison of **Newton-Cotes (Simpson's rule)** and **Gauss quadrature methods** for numerical integration, evaluating accuracy and error[cite: 4761].
+    * **Skills:** Finite Element Analysis (FEA), Abaqus, structural mechanics, stress analysis, buckling, thermomechanics, numerical integration.
 
 ### **Flight Control**
 
 Projects focused on the design and simulation of aircraft control systems, including mathematical models and automatic piloting strategies.
 
 * **[Flight Control Systems 2 (SCV2) Project](CONTROLLO%20DI%20VOLO/Progetto_SCV2.pdf)**
-    * **Content:** Design and implementation of **LQR (Linear Quadratic Regulator)** and **LQI (Linear Quadratic Integral) controllers** for aircraft stabilization and reference tracking (velocity, pitch angle). Analysis of the system's temporal response to perturbed initial conditions and step inputs. Verification of controller robustness on **nonlinear models** including noise. Details on the selection and impact of `Q` and `R` weighting matrices.
+    * **Content:** Design and implementation of **LQR (Linear Quadratic Regulator)** and **LQI (Linear Quadratic Integral) controllers** for aircraft stabilization and reference tracking (velocity, pitch angle). Analysis of the system's temporal response to perturbed initial conditions and step inputs. Verification of controller robustness on **nonlinear models** with inclusion of noise. Details on the selection and impact of `Q` and `R` weighting matrices. Includes preliminary work on **Model Predictive Control (MPC)** and **Kalman Filter** for state estimation.
     * **Implementation:** Extensive use of **MATLAB/Simulink** for modeling and simulation.
-    * **Skills:** Optimal control (LQR, LQI), dynamic systems, modeling and simulation (Simulink), robustness analysis, stability, dynamic response.
+    * **Skills:** Optimal control (LQR, LQI, MPC), state estimation (Kalman Filter), dynamic systems, modeling and simulation (Simulink), robustness analysis, stability, dynamic response.
 
 ### **Aircraft Dynamics and Design**
 
@@ -53,9 +74,9 @@ This project demonstrates the application of statistical and data analysis metho
 
 * **[Probability and Statistics Exam Project](PROBABILITA'%20E%20STATISTICA/progetto_1_2.pdf)**
     * **Content:** Statistical analysis of a dataset (real estate data) through:
-        * **Descriptive Statistics:** Description of variables, analysis of distributions (e.g., number of floors, bathrooms, fireplaces), calculation of central tendency and dispersion measures (minimum, maximum, mean, standard deviation).
+        * **Descriptive Statistics:** Description of variables, analysis of distributions (e.g., number of floors, bathrooms, fireplaces), calculation of measures of central tendency and dispersion (minimum, maximum, mean, standard deviation).
         * **Hypothesis Testing:** Conducting independence tests between variables (e.g., bathrooms and fireplaces) and hypothesis tests on the mean between two populations (based on ZIP codes).
-        * **Confidence Intervals:** Calculation and interpretation of confidence intervals to estimate population parameters.
+        * **Confidence Intervals:** Calculation and interpretation of confidence intervals for the mean of key variables (e.g., floor area, total property value).
         * **Multiple Regression:** Construction and evaluation of a multiple regression model to predict the total value of a property, analyzing variable significance (p-value) and model fit (R-squared).
     * **Technologies:** All analyses and graphical visualizations (histograms, boxplots, scatter plots) implemented using **MATLAB**.
     * **Relevance to Aerospace:** The skills demonstrated in this project (data analysis, inferential statistics, predictive modeling) are directly applicable in aerospace for telemetry data management, parameter estimation (e.g., orbit determination), performance analysis, and uncertainty evaluation in complex systems.
@@ -69,10 +90,8 @@ This section focuses on the design and analysis of space systems and vehicles, w
     * **Skills:** Astrodynamics, orbital mechanics, satellite systems, radar imaging, MATLAB.
 
 
-**Contact:**
-
 For any questions or further information regarding my projects, please feel free to contact me:
 
 * **LinkedIn:** [linkedin.com/in/ludoaric](https://www.linkedin.com/in/ludoaric)
 * **Email:** [ludovico.arico@gmail.com](mailto:ludovico.arico@gmail.com)
-* **GitHub Profile:** [github.com/ludoaric](https://github.com/ludoaric) (Ensure your GitHub username is correct)
+* **GitHub Profile:** [github.com/ludoaric](https://github.com/ludoaric) 
