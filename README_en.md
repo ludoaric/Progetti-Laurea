@@ -68,7 +68,6 @@ This section focuses on the design and analysis of space systems and vehicles, w
     * **Content:** Mission analysis of the **COSMO-SkyMed 1** satellite. Simulation of **orbital propagation** (Keplerian and with J2 effects), and evaluation of the **Ground Track**. Performance analysis of a **SAR radar module** on board the satellite, including calculation of **Swath** (Azimuth and Range), **Doppler effect** (with and without Yaw Steering), beam velocity, and **integration time**.
     * **Skills:** Astrodynamics, orbital mechanics, satellite systems, radar imaging, MATLAB.
 
----
 
 **Contact:**
 
