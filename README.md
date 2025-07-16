@@ -7,7 +7,7 @@ Questo repository contiene i progetti e gli elaborati sviluppati durante il perc
 - [AERODINAMICA](#aerodinamica)
 - [CONTROLLO DI VOLO](#controllo-di-volo)
 - [DINAMICA E PROGETTO DI VELIVOLI](#dinamica-e-progetto-di-velivoli)
-- [PROPULSIONE ED ESOREATTORI](#propulsione-ed-esoreattori)
+- [PROBABILITA' E STATISTICA](#probabilita-e-statistica)
 - [SISTEMI SPAZIALI](#sistemi-spaziali)
 
 ## AERODINAMICA
